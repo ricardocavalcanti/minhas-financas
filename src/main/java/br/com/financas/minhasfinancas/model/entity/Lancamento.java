@@ -17,6 +17,8 @@ import javax.persistence.Table;
 
 import org.springframework.data.jpa.convert.threeten.Jsr310JpaConverters;
 
+import br.com.financas.minhasfinancas.model.enums.StatusLancamento;
+import br.com.financas.minhasfinancas.model.enums.TipoLancamento;
 import lombok.Builder;
 import lombok.Data;
 
