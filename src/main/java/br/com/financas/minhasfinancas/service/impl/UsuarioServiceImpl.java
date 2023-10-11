@@ -1,13 +1,16 @@
 package br.com.financas.minhasfinancas.service.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import br.com.financas.minhasfinancas.model.entity.Usuario;
 import br.com.financas.minhasfinancas.model.repository.UsuarioRepository;
 import br.com.financas.minhasfinancas.service.UsuarioService;
-import lombok.AllArgsConstructor;
 
-@AllArgsConstructor
+@Service
 public class UsuarioServiceImpl implements UsuarioService{
 	
+	@Autowired
 	private UsuarioRepository repository;
 
 	@Override
