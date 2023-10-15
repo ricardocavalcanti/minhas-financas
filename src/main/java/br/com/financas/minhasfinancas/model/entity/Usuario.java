@@ -21,13 +21,13 @@ public class Usuario {
 	@Column(name = "id")
 	private Long id;
 	
-	@Column(name = "id")
+	@Column(name = "nome")
 	private String nome;
 	
-	@Column(name = "id")
+	@Column(name = "email")
 	private String email;
 	
-	@Column(name = "id")
+	@Column(name = "senha")
 	private String senha;
 
 }
